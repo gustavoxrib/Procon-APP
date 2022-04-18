@@ -1,0 +1,131 @@
+/**
+ * Style.
+ * 
+ * @author  Mario Sakamoto <mskamot@gmail.com>
+ * @license MIT http://www.opensource.org/licenses/MIT
+ * @see     https://wtag.com.br/divmon
+ */
+
+/*
+ * Reset
+ */
+html, body, div, span,
+table, thead, tbody, tfoot, tr, th, td,
+form, label, input, textarea, select, option, button,
+ul, li,
+h1, h2, h3, h4, h5, h6, p,
+img,
+a,
+pre, code, 
+iframe { }
+
+html { }
+
+body { }
+
+div { }
+
+span { }
+
+table { }
+
+	thead { }
+
+	tbody { }
+
+	tfoot { }
+
+		tr { }
+
+			th { }
+
+			td { }
+		
+form { }
+
+	label { }
+
+	input { }
+	
+	textarea { }
+
+	select { }
+	
+		option { }
+
+ul { }
+
+	li { }
+	
+h1 { }
+
+h2 { }
+
+h3 { }
+
+h4 { }
+
+h5 { }
+
+h6 { }
+
+p { }
+
+img { }
+
+a {}
+
+a:focus { outline-width: 0px !important; }
+
+
+.pesquisar{
+	width: 20%;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+.pesquisar::-webkit-input-placeholder { /* WebKit browsers */
+    padding-left: 15px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	padding-left: 15px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	padding-left: 15px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	padding-left: 15px;
+}
+
+.blue{
+	background-color: #12295d;
+}
+
+.white-procon{
+	width: 25%;
+}
+
+.card:hover{
+	transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card{
+	text-decoration:  none;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 7px rgba(50, 50, 50, 0.22);
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-bottom: 5%;
+	text-align: center;	
+    transition: all 0.3s ease-out;
+}
+
+
+/**
+ * Id
+ */
+/*
+ * Class
+ */
