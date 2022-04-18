@@ -1,0 +1,147 @@
+/**
+ * Style.
+ * 
+ * @author  Mario Sakamoto <mskamot@gmail.com>
+ * @license MIT http://www.opensource.org/licenses/MIT
+ * @see     https://wtag.com.br/divmon
+ */
+
+/*
+ * Reset
+ */
+html,
+body,
+div,
+span,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+form,
+label,
+input,
+textarea,
+select,
+option,
+button,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+a,
+pre,
+code,
+iframe {}
+
+html {}
+
+body {}
+
+div {}
+
+span {}
+
+table {}
+
+thead {}
+
+tbody {}
+
+tfoot {}
+
+tr {}
+
+th {}
+
+td {}
+
+form {}
+
+label {}
+
+input {}
+
+textarea {}
+
+select {}
+
+option {}
+
+ul {}
+
+li {}
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+img {}
+
+a {}
+
+a:focus {
+	outline-width: 0px !important;
+}
+
+.cardsInfo {
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+	transition: 0.5s;
+}
+
+.cardsInfo:hover {
+	transform: translateY(-5px);
+    cursor: pointer;
+
+	box-shadow: 7px 7px 13px 0px rgba(17, 17, 17, 0.7);
+}
+
+.blue {
+	background-color: #12295d;
+}
+
+.link:hover{
+	text-decoration: underline;
+}
+
+.white-procon {
+	width: 60%;
+}
+
+.suporte{
+	width: 30px;
+	height: 30px;
+}
+
+.footer-img{
+	width: 40%;
+}
+/**
+ * Id
+ */
+
+/*
+ * Class
+ */

@@ -1,0 +1,187 @@
+<!-- Update View -->
+	
+	<!-- Content -->
+
+	<div id="gz-content" class="dv-f-r">
+	
+		<p class="dv-mt-mdpi dv-mr-xdpi dv-mb-mdpi dv-ml-xdpi gz-gray">
+		
+			<one(titles)>
+			
+				<gz>menus.menu</gz> /
+
+				<gz>telas.tela</gz> / 
+				
+				<span class="gz-black gz-bold">
+				
+					@_LAN_UPDATE
+					
+				</span>
+				
+			</one>	
+				
+		</p>
+	
+		<for(estabelecimentos)>
+	
+			<!-- Form -->
+				
+			<form id="gz-form" class="dv-f-l dv-ml-xdpi dv-pt-ldpi">
+						
+				<!-- Estabelecimento -->
+				
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-mdpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Estabelecimento</div>
+
+				</div>
+
+				<div class="gz-block dv-f-l">
+					
+					<input class="gz-textbox-mdpi dv-f-l dv-mt-ldpi" type="text" 
+							id="estabelecimentos.estabelecimento" name="estabelecimentos.estabelecimento" value="<gz>estabelecimentos.estabelecimento.format.json</gz>">
+				
+				</div>
+						
+				<!-- Cnpj -->
+				
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-ldpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Cnpj</div>
+
+				</div>
+
+				<div class="gz-block dv-f-l">
+					
+					<input class="gz-textbox-ldpi dv-f-l dv-mt-ldpi gz-cnpj" type="text" 
+							id="estabelecimentos.cnpj" name="estabelecimentos.cnpj" value="<gz>estabelecimentos.cnpj</gz>">
+				
+				</div>
+						
+				<!-- Telefone -->
+				
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-ldpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Telefone</div>
+
+				</div>
+
+				<div class="gz-block dv-f-l">
+					
+					<input class="gz-textbox-ldpi dv-f-l dv-mt-ldpi gz-phone" type="text" 
+							id="estabelecimentos.telefone" name="estabelecimentos.telefone" value="<gz>estabelecimentos.telefone</gz>">
+				
+				</div>
+						
+				<!-- Celular -->
+				
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-ldpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Celular</div>
+
+				</div>
+
+				<div class="gz-block dv-f-l">
+					
+					<input class="gz-textbox-ldpi dv-f-l dv-mt-ldpi gz-cellphone" type="text" 
+							id="estabelecimentos.celular" name="estabelecimentos.celular" value="<gz>estabelecimentos.celular</gz>">
+				
+				</div>
+						
+				<!-- Celular2 -->
+				
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-ldpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Celular2</div>
+
+				</div>
+
+				<div class="gz-block dv-f-l">
+					
+					<input class="gz-textbox-ldpi dv-f-l dv-mt-ldpi" type="text" 
+							id="estabelecimentos.celular2" name="estabelecimentos.celular2" value="<gz>estabelecimentos.celular2.format.json</gz>">
+				
+				</div>
+						
+				<!-- Email -->
+				
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-ldpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Email</div>
+
+				</div>
+
+				<div class="gz-block dv-f-l">
+					
+					<input class="gz-textbox-mdpi dv-f-l dv-mt-ldpi gz-email" type="text" 
+							id="estabelecimentos.email" name="estabelecimentos.email" value="<gz>estabelecimentos.email</gz>">
+				
+				</div>
+					
+				<!-- Endereco -->
+		
+				<div class="gz-block dv-f-l">
+		
+					<div class="gz-label-mdpi dv-f-l dv-pt-mdpi dv-pb-mdpi">Endereco</div> 
+					
+				</div>
+				
+				<div class="gz-block dv-f-l">
+				
+					<select id="estabelecimentos.enderecos" class="gz-select-mdpi dv-f-l dv-mt-ldpi gz-required">
+							
+						<for(estabelecimentos.enderecos)>
+						
+							<option value="<gz>enderecos.id</gz>" <gz>enderecos.selected</gz>>
+							
+								<gz>enderecos.endereco</gz>
+							
+							</option>
+
+						</for>
+					
+					</select>
+				
+				</div>
+
+				<!-- Ok -->
+
+				<div class="gz-button dv-f-l dv-mt-mdpi dv-mr-hdpi dv-mb-xdpi">
+
+					<a href="#" onclick="request('estabelecimentos', 'update'); return false;" class="gz-tooltip">
+
+						<img src="@_ROOT/mod/cms/img/icon/ok.png" />
+
+						<span class="gz-span-top-right @_THEME">
+
+							@_LAN_CONFIRM
+
+						</span>
+
+					</a>
+
+				</div>
+				
+				<!-- Cancel -->
+				
+				<div class="gz-button dv-f-l dv-mt-mdpi dv-mb-xdpi">
+
+					<a href="#" onclick="cancel(); return false;" class="gz-tooltip">
+
+						<img src="@_ROOT/mod/cms/img/icon/cancel.png"/>
+						
+						<span class="gz-span-top-right @_THEME">
+
+							@_LAN_CANCEL
+
+						</span>
+
+					</a>
+
+				</div>
+					
+			</form>
+			
+		</for>
+		
+	</div>
