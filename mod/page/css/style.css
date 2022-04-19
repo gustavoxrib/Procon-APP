@@ -102,6 +102,9 @@ a:focus {
 	outline-width: 0px !important;
 }
 
+/* --------------------------------------------------------------------- */
+/* HOME PAGE */
+
 .cardsInfo {
 	margin: 10px;
 	padding: 15px;
@@ -150,25 +153,23 @@ a:focus {
 }
 
 
-.pesquisar::-webkit-input-placeholder {
-	/* WebKit browsers */
-	padding-left: 15px;
+/* --------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------- */
+/* TABLE PAGE */
+
+#tableProducts{
+	border: 1.5px solid black;
 }
 
-.pesquisar:-moz-placeholder {
-	/* Mozilla Firefox 4 to 18 */
-	padding-left: 15px;
+.titleTable{
+	color: white;
+	border: 1px solid black;
 }
 
-.pesquisar::-moz-placeholder {
-	/* Mozilla Firefox 19+ */
-	padding-left: 15px;
-}
+/* --------------------------------------------------------------------- */
 
-.pesquisar:-ms-input-placeholder {
-	/* Internet Explorer 10+ */
-	padding-left: 15px;
-}
+
 
 /**
  * Id
