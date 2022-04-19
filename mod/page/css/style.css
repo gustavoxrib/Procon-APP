@@ -122,6 +122,14 @@ a:focus { outline-width: 0px !important; }
     transition: all 0.3s ease-out;
 }
 
+.suporte{
+	width: 70%;
+	height: 70%;
+}
+
+.footer-img{
+	width: 60%;
+}
 
 /**
  * Id
