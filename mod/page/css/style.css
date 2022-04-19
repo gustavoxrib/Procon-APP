@@ -116,7 +116,7 @@ a:focus { outline-width: 0px !important; }
     border-radius: 5px;
     box-shadow: 7px 7px 13px 7px rgba(50, 50, 50, 0.22);
 	margin-top: 5%;
-	margin-left: 3%;
+	margin-left: 5%;
 	margin-bottom: 5%;
 	text-align: center;	
     transition: all 0.3s ease-out;
