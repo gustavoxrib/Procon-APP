@@ -1,20 +1,31 @@
 <div class="dv-center">
 
-        <for(cards)>
+    <div class="dv-line dv-horizontal-align-center dv-vertical-align-center">
 
-            <gz>@_START_LINE_THREE</gz>
+        <div class="dv-column">
 
-                <div class="dv-column-three-center  card">
+            <for(cards)>
 
-                    <img src="@_ROOT/res/img/mdpi/<gz>cards.foto</gz>">
+                <gz>@_START_LINE_THREE</gz>
 
-                    <p ><gz>cards.nome_categoria</gz></p>
+                <div class="dv-column-three-center cardsInfo">
+
+
+                <img class="dv-svg-mdpi" src="@_ROOT/res/doc/<gz>cards.foto</gz>">
+
+                    <p class="dv-text-align-center title">
+                        <gz>cards.nome_categoria</gz>
+                    </p>
 
                 </div>
 
-            <gz>@_END_LINE_THREE</gz>
+                <gz>@_END_LINE_THREE</gz>
 
-        </for>
+                </for>
+
+        </div>
+
+    </div>
+
 
 </div>
-   

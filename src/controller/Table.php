@@ -14,8 +14,10 @@
 
 	if ($method == "page") {
 		$daoFactory->beginTransaction();
+
 		$response["produtos"] = $daoFactory->getProdutosDao()->read("", "produtos.id ASC", true);
-        
+
+
 		$daoFactory->close();
 		
 		$response["print"] = "true";

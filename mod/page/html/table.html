@@ -1,38 +1,48 @@
 <div class="dv-center">
 
-        <table border="2">
-            <tr>
-                <th>Produtos</th>
-                <th>Marcas</th>
-                <th>Estabelecimentos</th>
-            </tr>
+    <div class="dv-line">
 
-            <for(produtos)>
-                <tr class="dv-border">
+        <div class="dv-column dv-horizontal-align-center dv-text-align-center">
 
-                <td class="dv-text-allign-center">
+            <table id="tableProducts" class="dv-margin-mdpi" style="margin-left: 0; margin-right:0px; max-width: 95%;">
+                <tr>
+                    <th class="titleTable blue">Produto</th>
+                    <th class="titleTable blue">Categoria</th>
+                    <th class="titleTable blue">Marca</th>
+                </tr>
 
-                    <gz class="dv-text-allign-center">produtos.produto</gz>
+                <for(produtos)>
 
-                </td>
+                    <tr class="dv-border">
 
+                        <td class="dv-text-align-center">
 
-                <td class="dv-text-allign-center">
+                            <gz>produtos.produto</gz>
 
-                    <gz>categorias.categoria</gz>
+                        </td>
 
-                </td>
+                        <td class="dv-text-align-center">
 
+                            <gz>categorias.categoria</gz>
 
-                <td class="dv-text-allign-center">
+                        </td>
 
-                    <gz>marcas.marca</gz>
+                        <td class="dv-text-align-center">
 
-                </td>
+                            <gz>marcas.marca</gz>
 
+                        </td>
+
+                    </tr>
 
                 </for>
-            </tr>
-        </table>
+
+
+            </table>
+
+        </div>
+
+    </div>
+
 
 </div>
