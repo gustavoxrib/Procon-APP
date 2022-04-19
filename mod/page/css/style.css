@@ -9,118 +9,166 @@
 /*
  * Reset
  */
-html, body, div, span,
-table, thead, tbody, tfoot, tr, th, td,
-form, label, input, textarea, select, option, button,
-ul, li,
-h1, h2, h3, h4, h5, h6, p,
+html,
+body,
+div,
+span,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+form,
+label,
+input,
+textarea,
+select,
+option,
+button,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
 img,
 a,
-pre, code, 
-iframe { }
+pre,
+code,
+iframe {}
 
-html { }
+html {}
 
-body { }
+body {}
 
-div { }
+div {}
 
-span { }
+span {}
 
-table { }
+table {}
 
-	thead { }
+thead {}
 
-	tbody { }
+tbody {}
 
-	tfoot { }
+tfoot {}
 
-		tr { }
+tr {}
 
-			th { }
+th {}
 
-			td { }
-		
-form { }
+td {}
 
-	label { }
+form {}
 
-	input { }
-	
-	textarea { }
+label {}
 
-	select { }
-	
-		option { }
+input {}
 
-ul { }
+textarea {}
 
-	li { }
-	
-h1 { }
+select {}
 
-h2 { }
+option {}
 
-h3 { }
+ul {}
 
-h4 { }
+li {}
 
-h5 { }
+h1 {}
 
-h6 { }
+h2 {}
 
-p { }
+h3 {}
 
-img { }
+h4 {}
+
+h5 {}
+
+h6 {}
+
+p {}
+
+img {}
 
 a {}
 
-a:focus { outline-width: 0px !important; }
-
-
-.pesquisar{
-	width: 20%;
+a:focus {
+	outline-width: 0px !important;
 }
 
-.link:hover{
-	text-decoration: underline;
-}
-.pesquisar::-webkit-input-placeholder { /* WebKit browsers */
-    padding-left: 15px;
-}
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-	padding-left: 15px;
-}
-::-moz-placeholder { /* Mozilla Firefox 19+ */
-	padding-left: 15px;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-	padding-left: 15px;
+/* --------------------------------------------------------------------- */
+/* HOME PAGE */
+
+.cardsInfo {
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 7px 0px rgba(50, 50, 50, 0.22);
+	transition: 0.5s;
 }
 
-.blue{
+.cardsInfo:hover {
+	transform: translateY(-5px);
+	cursor: pointer;
+
+	box-shadow: 7px 7px 13px 0px rgba(66, 66, 66, 0.7);
+}
+
+.blue {
 	background-color: #12295d;
 }
 
-.white-procon{
-	width: 25%;
+.link:hover {
+	background-color: white;
+	color: black;
+	border-radius: 10rem;
+	padding-left: 7px;
+	padding-right: 10px;
+	transition: 0.3s;
 }
 
-.card:hover{
-	transform: translateY(-5px);
-    cursor: pointer;
+.white-procon {
+	width: 60%;
 }
 
-.card{
-	text-decoration:  none;
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 7px rgba(50, 50, 50, 0.22);
-	margin-top: 5%;
-	margin-left: 3%;
-	margin-bottom: 5%;
-	text-align: center;	
-    transition: all 0.3s ease-out;
+.suporte {
+	width: 95%;
+	height: 85%;
 }
+
+.footer-img {
+	width: 60%;
+}
+
+.title {
+	font-size: 30px;
+	color: #0000ed;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------- */
+/* TABLE PAGE */
+
+#tableProducts {
+	border: 1.5px solid black;
+}
+
+.titleTable {
+	color: white;
+	border: 1px solid black;
+}
+
+/* --------------------------------------------------------------------- */
+
 
 
 /**
