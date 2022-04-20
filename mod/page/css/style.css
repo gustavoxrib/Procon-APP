@@ -107,29 +107,38 @@ a:focus {
 
 .cardsInfo {
 	margin-bottom: 15px;
-	/* padding: 100px; */
+	padding: 30px;
 	border-radius: 5px;
 	background-color: #ffffff;
 	box-shadow: 2px 2px 7px 0px rgba(50, 50, 50, 0.22);
 	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
 
 .cardsInfo:hover {
 	transform: translateY(-5px);
 	cursor: pointer;
-	-webkit-box-shadow: 0px 14px 23px -8px #000000; 
-box-shadow: 0px 14px 23px -8px #000000;
-/* 
-border-radius: 5px;
-background: #ffffff;
-box-shadow: inset 10px 10px 20px #bababa,
-            inset -10px -10px 20px #ffffff; */
+	-webkit-box-shadow: 0px 14px 23px -8px #000000;
+	box-shadow: 0px 14px 23px -8px #000000;
+}
+
+.imgCards{
+	width: 150px;
+	height: 150px;
+	display: flex;
+	align-items: center;
 }
 
 .filter {
 	filter: hue-rotate(210deg);
 	-webkit-filter: hue-rotate(210deg);
 	-moz-filter: hue-rotate(210deg);
+}
+
+.menu{
+	margin: 10px;
 }
 
 .blue {
@@ -158,22 +167,40 @@ box-shadow: inset 10px 10px 20px #bababa,
 .footer-img {
 	width: 60%;
 }
+
 .title {
 	font-size: 30px;
 	color: #0000ed;
 }
 
+.pesquisar{
+	background-color: #12295d;
+	border: 2px solid #0000ed;
+	height: 3rem;
+	color: white;
+}
 
+.pesquisar:focus{
+	outline-width: 0px !important;
+}
+
+.pesquisar:hover{
+	border: 2px solid #0000ed;
+}
+
+.lupa{
+	background-image: url("@_ROOT/mod/page/img/icon/search.svg");
+}
 /* --------------------------------------------------------------------- */
 
 /* --------------------------------------------------------------------- */
 /* TABLE PAGE */
 
-#tableProducts{
+#tableProducts {
 	border: 1.5px solid black;
 }
 
-.titleTable{
+.titleTable {
 	color: white;
 	border: 1px solid black;
 }
